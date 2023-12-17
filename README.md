@@ -24,6 +24,26 @@ FocusGuard is a Chrome browser extension designed to help users stay focused and
 - **Add Sites:** Enter the URLs of distracting websites and click "Add" to include them in the distraction list.
 - **Manage List:** View, remove, or modify websites in the distraction list via the UI.
 - **Stay Focused:** When visiting a distracting website, an overlay message will remind you to stay focused.
+## Directory Structure
+FocusGuard-Chrome-Extension/
+│
+├── manifest.json            
+│
+├── popup.html               
+├── popup.js                 
+├── popup.css                
+│
+├── content.js               
+│
+├── background.js            
+│
+├── images/                  
+│   ├── icon16.png
+│   ├── icon48.png
+│   └── icon128.png
+│
+└── LICENSE                 
+
 ## Contributing
 Contributions are welcome! Feel free to open issues for feature requests or bug reports.
 
@@ -32,3 +52,4 @@ Contributions are welcome! Feel free to open issues for feature requests or bug 
 3. Commit your changes (git commit -am 'Add new feature').
 4. Push to the branch (git push origin feature/your-feature).
 5. Create a new Pull Request.
+
